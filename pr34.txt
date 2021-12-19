@@ -12,3 +12,5 @@ n33 = norm(out.simout3.data - out.simout1.data)
 n44 = norm(out.simout4.data - out.simout2.data)
 n55 = norm(out.simout5.data - out.simout3.data)
 n66 = norm(out.simout6.data - out.simout1.data)
+
+122222333333333
