@@ -1,0 +1,14 @@
+clc
+n1 = norm(out.simout1.data - out.simout.data)
+n2 = norm(out.simout2.data - out.simout.data)
+n3 = norm(out.simout3.data - out.simout.data)
+n4 = norm(out.simout4.data - out.simout.data)
+n5 = norm(out.simout5.data - out.simout.data)
+n6 = norm(out.simout6.data - out.simout.data)
+
+n11 = norm(out.simout1.data - out.simout2.data)
+n22 = norm(out.simout2.data - out.simout3.data)
+n33 = norm(out.simout3.data - out.simout1.data)
+n44 = norm(out.simout4.data - out.simout2.data)
+n55 = norm(out.simout5.data - out.simout3.data)
+n66 = norm(out.simout6.data - out.simout1.data)
